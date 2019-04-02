@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1087572507188",
+    "firebase_url": "https://maya-22b67.firebaseio.com",
+    "project_id": "maya-22b67",
+    "storage_bucket": "maya-22b67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087572507188:android:eceb2f276c800ff2",
+        "android_client_info": {
+          "package_name": "com.example.maya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087572507188-sshhtpepcq705co0s9sf406avfs16fqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maya",
+            "certificate_hash": "0b02e28c53f6fc05b0c1ace1513099ca470b7339"
+          }
+        },
+        {
+          "client_id": "1087572507188-hbtv10hee82hs50t17s1dmsdq65ihhs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM9oM1FE2mHJpmP_W3m2eQS2JKyaTFyzw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087572507188-hbtv10hee82hs50t17s1dmsdq65ihhs5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

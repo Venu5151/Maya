@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:weightSum="12"
+    android:background="@color/color_backround"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/mayaloginicon"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_edittext"
+        >
+        <Spinner
+            android:id="@+id/spinnerCountries"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            >
+
+        </Spinner>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:inputType="phone"
+            android:hint="@string/mobile_number"
+            android:background="@null"
+
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+        <android.support.design.button.MaterialButton
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/colorbutton"
+            android:text="@string/getVerificationCode"
+            android:textAllCaps="false" />
+
+
+</LinearLayout>

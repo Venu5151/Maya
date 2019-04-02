@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_backround">#212121</color>
+    <color name="colorblack">#000000</color>
+    <color name="colorbutton">#E53935</color>
+    <color name="colorgrey">#424242</color>
+    <color name="colordarkgrey">#9E9E9E</color>
+    <color name="colorverify">#66BB6A</color>
+    <color name="verifybg">#616161</color>
+
+
+</resources>
